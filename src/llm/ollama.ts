@@ -14,10 +14,10 @@
  * temperature: 1    Jawaban mulai halu, kadang ngarang, bisa berubah-ubah, sangat acak, cocok untuk brainstorming atau eksplorasi ide.
  */
 
-import { ChatOllama } from "@langchain/community/chat_models/ollama";
+import { ChatOllama } from "@langchain/ollama";
 
 export const llm = new ChatOllama({
-  model: process.env.OLLAMA_MODEL,
-  baseUrl: process.env.OLLAMA_BASE_URL,
-  temperature: 0,
+   model: process.env.OLLAMA_MODEL,
+   baseUrl: process.env.OLLAMA_BASE_URL,
+   temperature: 0,
 });
