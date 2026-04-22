@@ -3,11 +3,11 @@
  * Dengan Ollama, Anda dapat meng-host model bahasa besar di mesin lokal Anda,
  * memungkinkan akses cepat dan kontrol penuh atas data dan model Anda.
  *
- * temperature ngatur seberapa random / kreatif jawaban AI.
- *    - Semakin kecil → semakin kaku, konsisten
- *    - Semakin besar → semakin acak, kreatif
+ * temperature mengatur seberapa random / kreatif jawaban AI.
+ *    - Semakin kecil -> semakin kaku, konsisten
+ *    - Semakin besar -> semakin acak, kreatif
  *
- * Beberapa model bisa sampai 2.0, tapi realistiknya: 0 – 1 sudah cukup
+ * Beberapa model bisa sampai 2.0, tapi realistiknya: 0 - 1 sudah cukup.
  *
  * temperature: 0    Jawaban stabil, konsisten, cocok untuk tugas yang membutuhkan keakuratan tinggi.
  * temperature: 0.5  Jawaban lebih bervariasi, cocok untuk tugas kreatif atau eksploratif.
